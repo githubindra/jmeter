@@ -27,6 +27,8 @@ jobs:
 
       - run: echo "Hello Github"
       #- name: pull from Github
-      - run: cd /home/aryanil/github_jmeter/jmeter
-      - run: pwd
-      - run: /home/aryanil/github_jmeter/jmeter/git pull
+      - run: | 
+          cd /home/aryanil/github_jmeter/jmeter
+          pwd
+          git pull
+      #- run: /home/aryanil/github_jmeter/jmeter/git pull
