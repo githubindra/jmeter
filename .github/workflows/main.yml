@@ -26,6 +26,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - run: echo "Hello Github"
-      - name: pull from Githun
+      #- name: pull from Github
       - run: cd /home/aryanil/github_jmeter/jmeter
       - run: git pull origin master
