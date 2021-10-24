@@ -28,4 +28,4 @@ jobs:
       - run: echo "Hello Github"
       #- name: pull from Github
       - run: cd /home/aryanil/github_jmeter/jmeter
-      - run: git pull origin master
+      - run: git clone git@github.com:username/repo.git
